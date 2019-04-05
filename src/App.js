@@ -6,7 +6,11 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <BtnBotcamp />
+      <div>
+        <img src="img/botcamp.png" alt="Botcamp" />
+        <BtnBotcamp />
+
+      </div>
     );
   }
 }
