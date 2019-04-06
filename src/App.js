@@ -6,10 +6,9 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: '#333'}}>
         <img src="img/botcamp.png" alt="Botcamp" />
         <BtnBotcamp />
-
       </div>
     );
   }
