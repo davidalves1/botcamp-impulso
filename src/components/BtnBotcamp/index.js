@@ -15,10 +15,6 @@ const BtnBotcamp = styled.button.attrs({
     cursor: pointer;
     font-size: 20px;
     height: 50px;
-    position: fixed;
-    bottom: 3rem;
-    left: 50%;
-    margin-left: -140px;
     text-transform: uppercase;
     transition: ease .3s;
     width: 280px;
