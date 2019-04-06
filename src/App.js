@@ -10,11 +10,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <>
+      <LoginWrapper>
         <LogoBotcamp />
-        <BtnBotcamp />
-        <LoginWrapper />
-      </>
+        <BtnBotcamp>Enviar</BtnBotcamp>
+      </LoginWrapper>
     );
   }
 }

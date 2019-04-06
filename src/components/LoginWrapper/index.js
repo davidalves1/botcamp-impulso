@@ -1,7 +1,11 @@
-import React from 'react';
+import styled from 'styled-components';
 
-import './style.css';
+import bgLogin from '../../img/bg-login.png';
 
-const LoginWrapper = () => <main className="login-wrapper"></main>;
+const LoginWrapper = styled.main`
+    background-image: url(${bgLogin});
+    height: 100vh;
+    width: 100vw;
+`;
 
 export default LoginWrapper;
