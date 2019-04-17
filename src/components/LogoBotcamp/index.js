@@ -6,7 +6,7 @@ const LogoBotcamp = styled.img.attrs({
     src: logoImg,
     alt: 'Logo do Botcamp'
 })`
-    width: 250px;
+    width: ${props => props.small ? '200px' : '250px'};
     max-height: 50px;
 `;
 
