@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import logoImg from '../../img/logo.svg';
+import logoImg from '../../img/logo.png';
 
 const LogoBotcamp = styled.img.attrs({
     src: logoImg,
