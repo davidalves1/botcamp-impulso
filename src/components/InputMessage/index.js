@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const InputMessage = styled.input.attrs({
+const InputMessage = styled.input.attrs(props => ({
     type: 'text',
     placeholder: 'Diz aí...'
-})`
+}))`
     box-sizing: border-box;
     color: #999;
     width: 100%;

@@ -6,9 +6,9 @@
 
 import styled from 'styled-components';
 
-const BtnBotcamp = styled.button.attrs({
-    children: props => props.content
-})`
+const BtnBotcamp = styled.button.attrs(props => ({
+    children: props.content
+}))`
     background-color: #ee3e25;
     border-radius: 25px;
     color: #fff;
